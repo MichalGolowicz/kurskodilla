@@ -8,5 +8,7 @@ class Main {
 class MobilePhone {
   String weight;
 
-  
+  public MobilePhone(Strign weight) {
+    this.weight = weight;
+  }
 }
