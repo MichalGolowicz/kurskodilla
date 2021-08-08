@@ -22,7 +22,7 @@ class MobilePhone {
     this.price = price;
   }
 
-  public void dispalyValues() {
+  public void displayValues() {
     System.out.println(this.weight + " " + this.price);
   }
 
