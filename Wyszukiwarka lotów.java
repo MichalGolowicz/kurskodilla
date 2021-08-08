@@ -1,7 +1,9 @@
 class Main {
   public static void main(String[] args) {
-//tworzę obiekt klasy Flight
-Flight.warszawaDubaj = new Flight("Warszawa", Dubaj);
+//tworzę obiekty klasy Flight
+Flight warszawaDubaj = new Flight("Warszawa", "Dubaj");
+Flight berlinMoskwa = new Flight("Berlin", "Moskwa");
+Flight londynKraków = new Flight("Londyn", "Kraków");
   }
 //metoda wyświetlająca informacje o locie z metody flightinfo
 Flight.flightinfo();
