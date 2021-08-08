@@ -2,15 +2,19 @@ class Main {
   public static void main(String[] args) {
       //tworzymy obiekt phone
       MobilePhone phone = new MobilePhone("200g", 700);
-       phone.displayValues();
+        phone.displayValues();
        String parameters = phone.getParameters();
        System.out.println(parameters);
       //tworzymy obiekt oldPhone
        MobilePhone oldPhone = new MobilePhone("4000g", 100);
           oldPhone.displayValues();
+         String parameters2 = oldPhone.getParameters();
+         System.out.println(parameters2);  
       //tworzymy obiekt mediumPhone
        MobilePhone mediumPhone = new MobilePhone("600g", 340);
       mediumPhone.displayValues();
+      String parameters3 = mediumPhone.getParameters();
+         System.out.println(parameters3);  
   }
 }
 
